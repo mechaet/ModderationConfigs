@@ -1,0 +1,21 @@
+{
+    "naquadah": {
+        "template": "normal",
+        "block": {
+            "name": "SGCraft:naquadahOre",
+            "metadata": 0
+        },
+        "clusterSize": 8,
+        "numClusters": 7,
+        "meanHeight": 16,
+        "maxVariance": 14,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

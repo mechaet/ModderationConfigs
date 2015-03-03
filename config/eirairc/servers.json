@@ -1,11 +1,21 @@
 [
   {
-    "address": "irc.synirc.net",
-    "nick": "ModderationPBOfficial",
+    "address": "irc.synirc.net:7001",
+    "nick": "ModderationPBServer",
+    "isSSL": true,
+    "nickserv": {
+      "username": "ModderationPBServer",
+      "password": ""
+    },
     "channels": [
       {
         "name": "#nst"
       }
     ]
+  },
+  {
+    "address": "irc.synirc.net",
+    "nick": "%USERNAME%",
+    "channels": []
   }
 ]

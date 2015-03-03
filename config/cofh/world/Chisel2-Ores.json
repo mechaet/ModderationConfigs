@@ -1,0 +1,97 @@
+{
+    "andesite": {
+        "template": "uniform",
+        "block": {
+            "name": "chisel:andesite",
+            "metadata": 0
+        },
+        "clusterSize": 16,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "diorite": {
+        "template": "uniform",
+        "block": {
+            "name": "chisel:diorite",
+            "metadata": 0
+        },
+        "clusterSize": 16,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "granite": {
+        "template": "uniform",
+        "block": {
+            "name": "chisel:granite",
+            "metadata": 0
+        },
+        "clusterSize": 16,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "limestone": {
+        "template": "uniform",
+        "block": {
+            "name": "chisel:limestone",
+            "metadata": 0
+        },
+        "clusterSize": 16,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "marble": {
+        "template": "uniform",
+        "block": {
+            "name": "chisel:marble",
+            "metadata": 0
+        },
+        "clusterSize": 16,
+        "numClusters": 7,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}
