@@ -1,0 +1,21 @@
+{
+    "darkiron": {
+        "template": "normal",
+        "block": {
+            "name": "factorization:DarkIronOre",
+            "metadata": 0
+        },
+        "clusterSize": 10,
+        "numClusters": 20,
+        "meanHeight": 3,
+        "maxVariance": 2,"
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

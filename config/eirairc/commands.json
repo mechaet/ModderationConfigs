@@ -1,7 +1,337 @@
 [
   {
+    "name": "backup",
+    "command": "backup",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": false,
+    "description": "Starts a server backup. Authed only."
+  },
+  {
+    "name": "ban",
+    "command": "ban",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Bans the specified player with an optional reason from the server. /ban <name> [reason ...]. Authed only."
+  },
+  {
+    "name": "ban-ip",
+    "command": "ban-ip",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Bans the specified IP address with an optional reason from the server. /ban <address|name> [reason ...]. Authed only."
+  },
+  {
+    "name": "banlist",
+    "command": "banlist",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "List IP addresses and names on the server. /banlist [ips|players]. Authed only."
+  },
+  {
+    "name": "ctps",
+    "command": "cofh tps",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": false,
+    "allowArgs": true,
+    "description": "Broadcasts the current CoFH TPS to the channel."
+  },
+  {
+    "name": "defaultgamemode",
+    "command": "defaultgamemode",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Change the server's default game mode. /defaultgamemode <mode>. Authed only."
+  },
+  {
+    "name": "deop",
+    "command": "deop",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "De-Op a player. /deop <player>. Authed only."
+  },
+  {
+    "name": "difficulty",
+    "command": "difficulty",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Change the server's difficulty level. /difficulty <new difficulty>. Authed only."
+  },
+  {
+    "name": "disarm",
+    "command": "disarm",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Drop all items from the specified player's inventory. /disarm <player>. Authed only."
+  },
+  {
+    "name": "gamemode",
+    "command": "gamemode",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Change the server's or a player's current game mode. /gamemode <mode> [player]. Authed only."
+  },
+  {
+    "name": "gamerule",
+    "command": "gamerule",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Change the server's game rules. /gamerule <rule name> <value> OR /gamerule <rule name>. Authed only."
+  },
+  {
+    "name": "give",
+    "command": "give",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Give a player item(s). /give <player> <item> [amount] [data] [dataTag]. Authed only."
+  },
+  {
+    "name": "heal",
+    "command": "heal",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Heals the given player to full health. /heal <player>. Authed only."
+  },
+  {
+    "name": "help",
+    "override": "help",
+    "broadcastResult": false,
+    "description": "Changes EiraIRCs help command to broadcast into the channel instead."
+  },
+  {
+    "name": "kick",
+    "command": "kick",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Kicks the specified player with an optional reason from the server. /kick <player> [reason ...]. Authed only."
+  },
+  {
+    "name": "killall",
+    "command": "killall",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Kills all entities of the given type. /killall [entity]. Authed only."
+  },
+  {
+    "name": "killplayer",
+    "command": "killplayer",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Kills the specified player. /killplayer [username]. Authed only."
+  },
+  {
+    "name": "mem",
+    "command": "memory",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": false,
+    "allowArgs": false,
+    "description": "Broadcasts the current server memory usage to the channel."
+  },
+  {
+    "name": "motd",
+    "command": "motd",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": false,
+    "allowArgs": false,
+    "description": "Broadcasts the current server message of the day to the channel."
+  },
+  {
+    "name": "morph.demorph",
+    "command": "morph demorph",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Makes a player demorph. /morph demorph [player] [force demorph even if offline (true/false)]. Authed only."
+  },
+  {
+    "name": "morph.clear",
+    "command": "morph clear",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Clears a player's morphs. /morph clear [player]. Authed only."
+  },
+  {
+    "name": "morph.whitelist",
+    "command": "morph whitelist",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Adds a player to the morph skill whitelist, turning it on. /morph whitelist <player>. Authed only."
+  },
+  {
+    "name": "morph.unwhitelist",
+    "command": "morph unwhitelist",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Removes a player to the morph skill whitelist, turning it off. /morph unwhitelist <player>. Authed only."
+  },
+  {
+    "name": "op",
+    "command": "op",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Op a player. /op <player>. Authed only."
+  },
+  {
+    "name": "pardon",
+    "command": "pardon",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Unbans (pardons) the specified player on the server. /pardon <name>. Authed only."
+  },
+  {
+    "name": "pardon-ip",
+    "command": "pardon-ip",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Unbans (pardons) the specified IP address on the server. /pardon-ip <address>. Authed only."
+  },
+  {
     "name": "players",
     "override": "who",
-    "description": "Default alias players for the who command."
+    "description": "An alias for the who command called players."
+  },
+  {
+    "name": "silence",
+    "command": "silence",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Adds/removes silence on a player or reload the silence list. /silence <add|remove|reload> <player>. Authed only."
+  },
+  {
+    "name": "soulnetwork",
+    "command": "soulnetwork",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Modify player's Blood Magic Soul Network (Life Essence). /soulnetwork <player> <add|subtract|fill|empty|get> [amount]. Authed only."
+  },
+  {
+    "name": "thaumcraft",
+    "command": "thaumcraft",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Modify player's Thaumcraft values. /thaumcraft <action> [<player> [<params>]]. Authed only."
+  },
+  {
+    "name": "time",
+    "command": "time",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Set the global time of the world. /time <set|add> <value>. Authed only."
+  },
+  {
+    "name": "tp",
+    "command": "tp",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Teleports a player to another player or x,y,z coordinate. /tp [target player] <destination player> OR /tp [target player] <x> <y> <z>. Authed Only."
+  },
+  {
+    "name": "tps",
+    "command": "tps",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": false,
+    "allowArgs": true,
+    "description": "Broadcasts the current TPS to the channel. /tps [ 'all' | dimID ]."
+  },
+  {
+    "name": "tpx",
+    "command": "tpx",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "An improved version of the /tp command that works in between dimensions. tpx [player] {(<player> | <dimension>) | <x> <y> <z> [dimension]}. Authed only."
+  },
+  {
+    "name": "voice",
+    "command": "voice",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Adds/removes voice on a player or reload the voice list.  /voice <add|remove|reload> <player>. Authed only."
+  },
+  {
+    "name": "weather",
+    "command": "weather",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Change server weather. /weather <clear|rain|thunder> [duration in seconds]. Authed only."
+  },
+  {
+    "name": "whereis",
+    "command": "whereis",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Show where the given player is at on the server. /whereis <player>. Authed only."
+  },
+  {
+    "name": "whitelist",
+    "command": "whitelist",
+    "broadcastResult": false,
+    "runAsOp": true,
+    "requireAuth": true,
+    "allowArgs": true,
+    "description": "Modify server whitelist. /whitelist <on|off|list|add|remove|reload>. Authed only."
   }
 ]
