@@ -1,12 +1,13 @@
 {
     "darkiron": {
+        "enabled": "false",
         "template": "normal",
         "block": {
             "name": "factorization:DarkIronOre",
             "metadata": 0
         },
         "clusterSize": 10,
-        "numClusters": 20,
+        "numClusters": 3,
         "meanHeight": 3,
         "maxVariance": 2,"
         "retrogen": "true",
