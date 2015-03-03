@@ -1,0 +1,20 @@
+[
+  {
+    "address": "irc.synirc.net",
+    "nick": "ModderationPBTest",
+    "channels": [
+      {
+        "name": "#nst"
+      }
+    ]
+	"bot": {
+      "botProfile": "Server",
+      "relayDeathMessages": false,
+      "(more)": "(see shared.cfg for more options)"
+    },
+    "general": {
+      "autoJoin": true,
+      "(more)": "(see shared.cfg for more options)"
+    }
+  }
+]
