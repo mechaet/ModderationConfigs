@@ -24,4 +24,9 @@
   
  -->
 
+<!-- Covers Reading Glasses, Tinted Glasses, and Monocle -->
+  <enchantment name="enchantment.reading" costPerLevel="5">
+    <itemStack modID="BiblioCraft" itemName="item.BiblioGlasses"/>
+  </enchantment>
+
 </enchaterRecipes>
