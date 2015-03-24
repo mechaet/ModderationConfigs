@@ -5,6 +5,7 @@
             "name": "BigReactors:YelloriteOre",
             "metadata": 0
         },
+        "material": "minecraft:stone",
         "clusterSize": 10,
         "numClusters": 8,
         "meanHeight": 6,

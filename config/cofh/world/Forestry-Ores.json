@@ -5,6 +5,7 @@
             "name": "Forestry:resources",
             "metadata": 0
         },
+        "material": "minecraft:stone",
         "clusterSize": 20,
         "numClusters": 7,
         "minHeight": 44,

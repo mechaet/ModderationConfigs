@@ -2,6 +2,7 @@
     "copper": {
         "template": "uniform",
         "block": "ThermalFoundation:Ore",
+        "material": "minecraft:stone",
         "clusterSize": 10,
         "numClusters": 15,
         "minHeight": 40,
@@ -20,6 +21,7 @@
     "tin": {
         "template": "uniform",
         "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
+        "material": "minecraft:stone",
         "clusterSize": 10,
         "numClusters": 15,
         "minHeight": 20,
@@ -41,6 +43,7 @@
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":80},
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
         ],
+        "material": "minecraft:stone",
         "clusterSize": 8,
         "numClusters": 12,
         "minHeight": 5,
@@ -62,6 +65,7 @@
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
         ],
+        "material": "minecraft:stone",
         "clusterSize": 8,
         "numClusters": 10,
         "minHeight": 10,
@@ -80,6 +84,7 @@
     "nickel": {
         "template": "uniform",
         "block": {"name": "ThermalFoundation:Ore", "metadata": 4},
+        "material": "minecraft:stone",
         "clusterSize": 4,
         "numClusters": 3,
         "minHeight": 5,
@@ -102,6 +107,7 @@
             {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 80},
             {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 20}
         ],
+        "material": "minecraft:stone",
         "clusterSize": 8,
         "numClusters": 1,
         "minHeight": 5,
@@ -120,6 +126,7 @@
     "copperHigh": {
         "template": "uniform",
         "block": "ThermalFoundation:Ore",
+        "material": "minecraft:stone",
         "clusterSize": 8,
         "numClusters": 8,
         "minHeight": 48,

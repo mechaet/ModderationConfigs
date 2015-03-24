@@ -6,6 +6,7 @@
             "name": "factorization:DarkIronOre",
             "metadata": 0
         },
+        "material": "minecraft:stone",
         "clusterSize": 10,
         "numClusters": 3,
         "meanHeight": 3,
