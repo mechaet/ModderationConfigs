@@ -1,6 +1,5 @@
 {
     "darkiron": {
-        "enabled": "false",
         "template": "normal",
         "block": {
             "name": "factorization:DarkIronOre",
