@@ -1,6 +1,6 @@
 {
     "yellorite": {
-        "template": "uniform",
+        "template": "normal",
         "block": {
             "name": "BigReactors:YelloriteOre",
             "metadata": 0
