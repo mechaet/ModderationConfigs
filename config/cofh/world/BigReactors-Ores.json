@@ -6,8 +6,8 @@
             "metadata": 0
         },
         "material": "minecraft:stone",
-        "clusterSize": 10,
-        "numClusters": 10,
+        "clusterSize": 8,
+        "numClusters": 8,
         "meanHeight": 44,
         "maxVariance": 6,
         "retrogen": "true",
