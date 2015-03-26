@@ -5,6 +5,7 @@
             "name": "TConstruct:SearedBrick",
             "metadata": 5
         },
+        "material": "minecraft:stone",
         "clusterSize": 4,
         "numClusters": 9,
         "minHeight": 44,

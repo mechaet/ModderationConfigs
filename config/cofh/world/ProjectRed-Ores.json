@@ -5,6 +5,7 @@
             "name": "ProjRed|Exploration:projectred.exploration.ore",
             "metadata": 0
         },
+        "material": "minecraft:stone",
         "clusterSize": 7,
         "numClusters": 3,
         "minHeight": 17,
@@ -24,6 +25,7 @@
             "name": "ProjRed|Exploration:projectred.exploration.ore",
             "metadata": 1
         },
+        "material": "minecraft:stone",
         "clusterSize": 7,
         "numClusters": 3,
         "minHeight": 33,
@@ -43,6 +45,7 @@
             "name": "ProjRed|Exploration:projectred.exploration.ore",
             "metadata": 2
         },
+        "material": "minecraft:stone",
         "clusterSize": 7,
         "numClusters": 3,
         "minHeight": 49,

@@ -5,6 +5,7 @@
             "name": "SGCraft:naquadahOre",
             "metadata": 0
         },
+        "material": "minecraft:stone",
         "clusterSize": 8,
         "numClusters": 7,
         "meanHeight": 16,

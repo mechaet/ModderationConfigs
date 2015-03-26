@@ -5,6 +5,7 @@
             "name": "chisel:andesite",
             "metadata": 0
         },
+        "material": "minecraft:stone",
         "clusterSize": 16,
         "numClusters": 8,
         "minHeight": 0,
@@ -24,6 +25,7 @@
             "name": "chisel:diorite",
             "metadata": 0
         },
+        "material": "minecraft:stone",
         "clusterSize": 16,
         "numClusters": 8,
         "minHeight": 0,
@@ -43,6 +45,7 @@
             "name": "chisel:granite",
             "metadata": 0
         },
+        "material": "minecraft:stone",
         "clusterSize": 16,
         "numClusters": 8,
         "minHeight": 0,
@@ -62,6 +65,7 @@
             "name": "chisel:limestone",
             "metadata": 0
         },
+        "material": "minecraft:stone",
         "clusterSize": 16,
         "numClusters": 8,
         "minHeight": 0,
@@ -81,6 +85,7 @@
             "name": "chisel:marble",
             "metadata": 0
         },
+        "material": "minecraft:stone",
         "clusterSize": 16,
         "numClusters": 7,
         "minHeight": 0,
