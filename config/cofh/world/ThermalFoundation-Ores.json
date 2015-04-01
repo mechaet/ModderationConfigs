@@ -102,7 +102,7 @@
     },
     "platinum": {
         "template": "uniform",
-        "chunkChance": 2,
+        "generator": "sparse-cluster",
         "block": [
             {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 80},
             {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 20}
