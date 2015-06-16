@@ -1,0 +1,20 @@
+# Setting: loggin.materialInjection Default: false # Log material injection event
+# Setting: updatechecker.enable Default: true # Enable KCauldron update checker
+# Setting: updatechecker.installAs Default:  # Install new version with specified name
+# Setting: updatechecker.deleteOld Default: true # Delete old version after update
+# Setting: command.enable Default: true # Enable KCauldron command
+# Setting: updatechecker.symlinks Default:  # (Re)create symlinks after update
+# Setting: updatechecker.autoinstall Default: false # Install updates without confirming
+# Setting: updatechecker.quite Default: false # Print less info during update
+
+loggin:
+  materialInjection: false
+updatechecker:
+  enable: false
+  installAs: ''
+  deleteOld: true
+  symlinks: ''
+  autoinstall: false
+  quite: false
+command:
+  enable: true
