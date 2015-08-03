@@ -3,5 +3,5 @@ mechaet's server and client configurations for the Modderation series of modpack
 
 Packs using this config:
 
-Modderation: Permabanned is available via http://www.technicpack.net/modpack/modderation-permabanned-edition.449941
+Modderation: FYAD is available via http://technicpack.net/modpack/modderation-fyad-edition.696257
 
