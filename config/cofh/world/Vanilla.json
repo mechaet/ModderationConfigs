@@ -19,7 +19,7 @@
     "gravel": {
         "template": "uniform",
         "block": "gravel",
-        "material": "minecraft:stone",
+        "material": "stone",
         "clusterSize": 32,
         "numClusters": 10,
         "minHeight": 0,
@@ -36,7 +36,7 @@
     "coal": {
         "template": "uniform",
         "block": "coal_ore",
-        "material": "minecraft:stone",
+        "material": "stone",
         "clusterSize": 16,
         "numClusters": 20,
         "minHeight": 0,
