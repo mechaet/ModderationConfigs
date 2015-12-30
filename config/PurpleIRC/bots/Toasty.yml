@@ -14,15 +14,15 @@ login: ModderationPB-UNCONFIGURED
 # realname
 realname: ''
 # server - IRC server to join
-server: irc.example.com
+server: irc.synirc.net
 # port - IRC server port
-port: 6667
+port: 7001
 # Enable TLS support via STARTTLS. Must connect to non-SSL port to use this.
 tls: false
 # Attempt ssl connection to IRC server
-ssl: false
+ssl: true
 # Trust all SSL certs
-trust-all-certs: false
+trust-all-certs: true
 # Bind address
 bind: ''
 # Auto split length for long messages
@@ -32,7 +32,7 @@ charset: ''
 # show irc server motd on connect
 show-motd: false
 # autoconnect - Connect automatically on startup
-autoconnect: 'false'
+autoconnect: 'true'
 # password - Server password if needed
 password: ''
 # identify password (sent to NickServ)
